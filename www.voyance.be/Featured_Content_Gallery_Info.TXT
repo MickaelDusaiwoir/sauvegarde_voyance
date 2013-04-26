@@ -1,0 +1,19 @@
+Gallery Style
+=============
+
+Gallery Width in Pixels: 478
+Gallery Height in Pixels: 200
+Text Overlay Height in Pixels: 50
+
+Gallery Border Color: #666666
+Gallery Background Color: #ffffff
+Gallery Text Color: #000000
+
+
+Slide Transition Times and Other Options
+========================================
+
+Slide Display Duration (milliseconds): 50000
+Slide Fade Duration (milliseconds): 1000
+Carousel Button Name: Featured Content
+Number of Words in Text Overlay: 100

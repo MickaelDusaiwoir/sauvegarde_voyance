@@ -1,0 +1,18 @@
+http://www.templatelite.com/red-light-free-wordpress-theme/
+
+VERSION DATE        TYPE    CHANGES
++-------+-----------+-------+----------------------------------------------------------------------------------+
+3.00    2011/08/01  Upgrade Added drop-down menu, ad-widget, Options page, 
+                            advanced automatic thumbnails, custom style, 
+                            custom header menu (works on WP 3+ onwards) and 
+                            enabled localization (translation).
+
+2.01    2010/04/29  Fix     Fix missing div section on footer.php
+
+2.00    2010/04/10  Modify  Added drop-down menu, ad-widget, Options page that includes Twitter and feed integration, advanced automatic thumbnails, custom style and more.
+
+1.01    2009/05/11  Modify  Modify the javascript to fix the height of dynamic content.
+                    Modify  Move javascript to seperate .js file
+
+1.00    2009/04/14  New     New release.
+

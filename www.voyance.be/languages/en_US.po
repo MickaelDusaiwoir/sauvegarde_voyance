@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Red Light  Wordpress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-02 00:01+0800\n"
+"PO-Revision-Date: 2011-08-02 00:01+0800\n"
+"Last-Translator: Brian L\n"
+"Language-Team: Templatelite.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\Wamp\\www\\wordpress3\\wp-content\\themes\\redlight\n"
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/comments.php:13
+msgid "No Responses"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/comments.php:13
+msgid "One Response"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/comments.php:13
+msgid "% Responses"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/comments.php:31
+msgid "Comments are closed."
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/comments.php:36
+msgid "Leave a Reply"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/comments.php:37
+msgid "Post Comment"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:11
+#, php-format
+msgid "Archive for the Category &raquo; %s &laquo;"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:13
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:15
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:17
+#, php-format
+msgid "Archive for &raquo; %s &laquo;"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:19
+msgid "Search Results"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:21
+msgid "Author Archive"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:23
+#, php-format
+msgid "Tag-Archive for &raquo; %s &laquo;"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:25
+msgid "Blog Archives"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:34
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:8
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/includes/theme-functions.php:107
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/includes/theme-functions.php:127
+msgid "Edit"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:46
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/page.php:11
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:16
+msgid "more &raquo;"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:52
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:21
+msgid "Category:"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:53
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:22
+msgid "Tags:"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:54
+msgid "Leave a Comment"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:54
+msgid "One Comment"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:54
+msgid "% Comments"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:54
+msgid "Comments off"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:62
+msgid "&laquo; Previous Entries"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:63
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:68
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:53
+msgid "Not found"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/index.php:69
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:54
+msgid "Sorry, but you are looking for something that isn't here. Try something else."
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/page.php:13
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/page.php:31
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:38
+msgid "Edit this entry"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/page.php:21
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:28
+#, php-format
+msgid "You can follow any responses to this entry through the <a href=\"%s\">RSS 2.0</a> feed."
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/page.php:23
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:30
+#, php-format
+msgid "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/page.php:25
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:32
+#, php-format
+msgid "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/page.php:27
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:34
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed."
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/page.php:29
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:36
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:48
+msgid "&laquo; %link"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/single.php:49
+msgid "%link &raquo;"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/includes/theme-functions.php:98
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/includes/theme-functions.php:104
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/includes/theme-functions.php:112
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: D:\Wamp\www\wordpress3\wp-content\themes\redlight/includes/theme-functions.php:127
+msgid "Pingback:"
+msgstr ""
+
+#~ msgid "The right sidebar"
+#~ msgstr "看更多..."
+
+#~ msgid "this is footer test"
+#~ msgstr "看到中文就对了"
+
+#~ msgid "hello world"
+#~ msgstr "大家好"

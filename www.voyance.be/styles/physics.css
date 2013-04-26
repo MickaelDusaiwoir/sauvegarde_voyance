@@ -1,0 +1,283 @@
+body{
+	color:#000000;
+	background:#00182B url(physics/bg_header_modif.jpg) no-repeat center top;
+}
+
+a {color:#9E5D78;}
+a:hover {color: #9E5D78;}
+
+#bg_btm{
+	-background:url(physics/bg_btm.jpg) no-repeat center bottom;
+}
+
+#base{
+	-background:url(physics/bg_base_repeat.jpg) repeat-y 0 58px;
+	background: none;
+}
+#menubar{
+	background:url(physics/bg_menu.jpg) no-repeat center top;
+}
+
+#header{
+	background:url(physics/bg_header.jpg) no-repeat center top;
+}
+#container_btm{
+	background:url(physics/bg_container_btm.jpg) no-repeat center bottom;
+}
+
+#container{
+	-background:url(physics/bg_container_top.jpg) no-repeat center top;
+	background:url(physics/bg_base_repeat_modif.jpg) repeat-y  1px;
+	padding-bottom: 0;
+}
+#footer{
+	-overflow:hidden;
+	background:url(physics/footer.jpg) no-repeat center top;
+	height: 70px; /*71*/
+	width:975px;
+	padding: 0;
+	color: black;
+	top: -12px;
+	left: -44px;
+}
+
+#footer a{
+	color: black;
+}
+
+#blog_name{
+	color:#B2C9D0; 
+	width:480px;
+	padding:30px 0px 0px 0px;
+	margin:0px 0 0 400px;
+}
+#blog_name a, #blog_name a:hover {
+	color:#B2C9D0; 
+	text-decoration:none;
+	text-shadow:#000000 2px 2px 2px;
+}
+#blog_desc {
+	width:480px;
+	margin:0px 0px 0 400px;
+	color:#ffffff;
+	text-shadow:#000000 1px 1px 0px;
+}
+
+div.menu ul li a {
+	color: #ffffff;
+	background:url('physics/bg_menu_item.gif') no-repeat top center;
+}
+
+div.menu > ul > li a:hover{
+	color:#0E7DAF;
+}
+
+div.menu > ul > li.current_page_item > a,
+div.menu > ul > li.current_page_ancestor > a,
+div.menu > ul > li.current_page_parent > a,
+div.menu > ul > li.current-menu-ancestor > a,
+div.menu > ul > li.current-menu-item > a,
+div.menu > ul > li.current-menu-parent > a{
+	color:#0E7DAF;
+	background:none;
+}
+
+div.menu ul ul li a:hover,
+div.menu ul ul li.current_page_item > a,
+div.menu ul ul li.current_page_ancestor > a,
+div.menu ul ul li.current_page_parent > a,
+div.menu ul ul li.current-menu-ancestor > a,
+div.menu ul ul li.current-menu-item > a,
+div.menu ul ul li.current-menu-parent > a{	
+	height:auto;
+	color:#0E7DAF;  
+	border:1px #ffffff solid;
+	background:#000000;
+}
+
+
+
+.postbox2{
+	background:none;
+	margin-bottom: 0px;
+}
+.page .postbox2{
+	background:none;
+}
+
+.sticky .postbox2{
+	background:url('physics/bg_post_title_sticky.gif') no-repeat top left;
+}
+
+.post_title a,.post_title a:hover,
+.page_title a,.page_title a:hover{
+	text-decoration:none;
+	color:#748D99;
+
+}
+
+.sticky .post_date_m{
+	color:#C2E1ED;
+}
+
+.post_author{
+	border-top:1px #A8A6A5 dashed;
+}
+
+
+img.post_thumb {
+	border:1px solid #002538;
+	background:transparent;
+}
+.info_category {
+	background: url('physics/icon_category.gif') no-repeat top left transparent;
+}
+
+.info_tag {
+	background: url('physics/icon_tags.gif') no-repeat top left transparent;
+}
+
+.info_comment {
+	background: url('physics/icon_comment.gif') no-repeat top left transparent;
+}
+
+.navigation {
+	border-top:1px #286584 solid; /* 002538 */
+	margin: 0;
+}
+
+#postmetadata {
+	color:#ffffff;
+	background:#181818;
+}
+
+
+#rss_search a.rss{
+	background:url('physics/rss.jpg') no-repeat 0 0;
+}
+#rss_search a.rss:hover{
+	background:url('physics/rss.jpg') no-repeat 0 -87px;
+}
+
+
+#mainsearchform {
+	display: block;
+	position: relative;
+	top: 80px;
+	left: -18px;
+	height : 61px;
+	width: 190px;
+	background: url('physics/search_bar.jpg');
+}
+
+#rss_search .submit {
+	top: 10px;
+	left: 18px;
+	padding: 0;
+}
+
+#rss_search .input {
+	top: 15px;
+	left: 60px;
+	font-size: 12px;
+	height: 18px;
+}
+
+.twitter {
+	position:absolute;
+	top:35px;
+	left:25px;
+	display:block;
+	width:60px;
+	height:60px;
+	background:url('physics/bg_twitter.png') no-repeat 0px 0px;
+}
+.twitter:hover{
+	background:url('physics/bg_twitter.png') no-repeat 0px -60px;
+}
+
+#sidebar1 a:hover {color:#0E7DAF; text-decoration:none;}
+
+#sidebar1>ul>li>h4{
+	color: #9BC9E1;
+	background: url('physics/bg_sb_title1.png') no-repeat -5px 0;
+}
+#sidebar1 ul ul li {
+	background: url('physics/bg_sb_arrow1.png') no-repeat 0px 5px;
+}
+
+#sidebar2 {background:#0A4C6E;}
+#sidebar2 a:hover {color:#96A0A4; text-decoration:none;}
+
+#sidebar2>ul>li>h4 {
+	color: #8CC5E2;
+}
+#sidebar2 ul li{
+	background: url('physics/bg_sb_title2.png') no-repeat 0 0;
+}
+#sidebar2 ul ul li {
+	background: url('physics/bg_sb_arrow2.png') no-repeat 0px 6px;
+}
+.wp-caption {  
+    color:#aaaaaa;
+}
+
+#wp-calendar td {color:#dddddd;}
+#wp-calendar td a {color:#fffffe;}
+#wp-calendar {
+	color:#dddddd;
+}
+
+#h_gratuit h2 {
+	text-transform : capitalize;
+}
+
+#h_gratuit h2:first-child {
+	margin-top: 20px;
+}
+
+#h_gratuit p {
+	margin: 10px 0 20px 0;
+}
+
+.post_title {
+	color: #748D99;
+}
+
+.entry .horoscope h3 {
+	margin-bottom : 10px;
+	margin-top: 1em;
+	color: #748D99;
+	padding: 0.2em 0;
+	border-top: 1px rgb(190, 189, 188) dashed;
+	border-bottom: 1px rgb(190, 189, 188) dashed;
+}
+
+#content .horoscope h3:nth-child(2) {
+	margin-top: 0em;
+}
+
+.archivetitle {
+	font-size: 17px;
+}
+
+.more {
+	float: right;
+}
+
+.horoscope img {
+	display: block;
+	margin: 0 auto;
+}
+
+#lien_externe {
+	font-size: 9px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+
+
+
