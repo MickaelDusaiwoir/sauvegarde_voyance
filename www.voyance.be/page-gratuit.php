@@ -9,14 +9,13 @@
 						<div class="postbox3">
 							<div class="page_title">
 								<h1>
-									<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+									<?php the_title(); ?>
 								</h1>
 							</div>
 							<div class="clear"></div>
 							<div class="entry">
-								<?php the_content(__('lira la suite &raquo;','templatelite')); ?><div class="clear"></div>
+								<?php the_content(__('lira la suite &raquo;','templatelite')); ?>
 								<?php wp_link_pages(array('Précédent' => '<div><center><strong>Pages: ', 'Suivant' => '</strong></center></div>', 'next_or_number' => 'numéro')); ?>
-								<?php edit_post_link(__('Editer ce post','templatelite'), '<p>', '</p>'); ?>
 								<div class="clear"></div>
 							</div>
 						</div>
@@ -105,32 +104,32 @@
 				
 				else :
 			
-				$arg = array('category_name' => 'tarot-gratuit');
-				$loop = new WP_query($arg);
+					$arg = array('category_name' => 'tarot-gratuit');
+					$loop = new WP_query($arg);
 
-				if ( $loop->have_posts() ):
-					while ( $loop->have_posts() ):
-						$loop->the_post();
-				?>
-					<div id="post-<?php the_ID(); ?>" <?php post_class("postbox"); ?>>
-						<div class="postbox2">
-							<div class="postbox3">
-								<div class="page_title">
-									<h1>
-										<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-									</h1>
-								</div>
-								<div class="clear"></div>
-								<div class="entry">
-									<?php the_excerpt(); ?>
-									<a href="<?php the_permalink() ?>" title="Lire la suite de ce signe" >lire la suite</a>
+					if ( $loop->have_posts() ):
+						while ( $loop->have_posts() ):
+							$loop->the_post();
+					?>
+						<div id="post-<?php the_ID(); ?>" <?php post_class("postbox"); ?>>
+							<div class="postbox2">
+								<div class="postbox3">
+									<div class="page_title">
+										<h1>
+											<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+										</h1>
+									</div>
 									<div class="clear"></div>
-									<?php edit_post_link(__('Editer ce post','templatelite'), '<p>', '</p>'); ?>
-									<div class="clear"></div>
+									<div class="entry">
+										<?php the_content(__('lira la suite &raquo;','templatelite')); ?>
+										<a href="<?php the_permalink() ?>" title="Lire la suite de ce signe" >lire la suite</a>
+										<div class="clear"></div>
+										<?php edit_post_link(__('Editer ce post','templatelite'), '<p>', '</p>'); ?>
+										<div class="clear"></div>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div><!-- #postbox3, #postbox2,#postbox -->
+						</div><!-- #postbox3, #postbox2,#postbox -->
 				<?php 
 						endwhile; 
 					endif;				
