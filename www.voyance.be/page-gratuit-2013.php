@@ -45,7 +45,7 @@
 							
 							<?php 
 								
-								if ( get_post_custom_values('signe', $post_id) ) 
+							/*if ( get_post_custom_values('signe', $post_id) ) 
 								{							
 									$signe =  get_post_custom_values('signe', $post_id); 
 									$showHoroscope = true;
@@ -101,7 +101,7 @@
 											break;
 									}
 									
-									if ( $ch = curl_init($url) )
+									/*if ( $ch = curl_init($url) )
 									{
 										curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 										$buffer = curl_exec($ch);
@@ -170,12 +170,12 @@
 									<?php
 								}
 								else 
-								{
+								{*/
 									the_excerpt(); 
 									?>
 									<a href="<?php the_permalink(); ?>" title="Lire la suite de ce signe" class="more">lire la suite</a>
 									<?php
-								}	
+								/*}	*/
 								?>								
 								<div class="clear"></div>
 								<?php edit_post_link(__('Editer ce post','templatelite'), '<p>', '</p>'); ?>

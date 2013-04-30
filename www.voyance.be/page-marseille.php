@@ -3,7 +3,7 @@
 	<div id="content_top">
 		<div id="content_btm">
 		
-		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+		<!--<?php /*if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class("postbox"); ?>>
 				<div class="postbox2">
 					<div class="postbox3">
@@ -22,7 +22,7 @@
 		<?php 
 				endwhile; 
 			endif;
-		?>
+		*/?>-->
 		
 		<?php 
 			$arg = array('category_name' => 'tarot-marseille');

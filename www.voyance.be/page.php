@@ -3,11 +3,11 @@
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class("postbox"); ?>><div class="postbox2"><div class="postbox3">
 				<div class="page_title">
-					<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+					<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 				</div>
 				<div class="clear"></div>
 				<div class="entry">
-					<?php the_content(__('lira la suite &raquo;','templatelite')); ?><div class="clear"></div>
+					<?php the_content(__('lire la suite &raquo;','templatelite')); ?><div class="clear"></div>
 					<?php wp_link_pages(array('Précédent' => '<div><center><strong>Pages: ', 'Suivant' => '</strong></center></div>', 'next_or_number' => 'numéro')); ?>
 					<?php edit_post_link(__('Editer ce post','templatelite'), '<p>', '</p>'); ?>
 					<div class="clear"></div>

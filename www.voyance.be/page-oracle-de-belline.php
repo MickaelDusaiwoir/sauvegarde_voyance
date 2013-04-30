@@ -12,7 +12,7 @@
 						</div>
 						<div class="clear"></div>
 						<div class="entry">
-							<?php the_content(__('lira la suite &raquo;','templatelite')); ?>
+							<?php the_content(__('lire la suite &raquo;','templatelite')); ?>
 							<?php edit_post_link(__('Editer ce post','templatelite'), '<p>', '</p>'); ?>
 							<div class="clear"></div>
 						</div>
@@ -25,7 +25,7 @@
 		*/?>-->
 		
 		<?php 
-			$arg = array('category_name' => 'voyance-telephone');
+			$arg = array('category_name' => 'oracle-belline');
 			$loop = new WP_query($arg);
 
 			if ( $loop->have_posts() ):
@@ -42,7 +42,7 @@
 						</div>
 						<div class="clear"></div>
 						<div class="entry">
-							<?php the_content(__('lira la suite &raquo;','templatelite')); ?>
+							<?php the_content(__('lire la suite &raquo;','templatelite')); ?>
 							<div class="clear"></div>
 							<?php edit_post_link(__('Editer ce post','templatelite'), '<p>', '</p>'); ?>
 							<div class="clear"></div>
