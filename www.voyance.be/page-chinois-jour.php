@@ -42,9 +42,70 @@
 						</div>
 						<div class="clear"></div>
 						<div class="entry">
-							<?php the_excerpt(); ?>
-								<a href="<?php the_permalink() ?>" title="Lire la suite de ce signe" >lire la suite</a>
-							<div class="clear"></div>
+						<?php 								
+							if ( get_post_custom_values('signe', $post_id) ) 
+							{
+								$signe =  get_post_custom_values('signe', $post_id);
+							
+								switch ( $signe[0] ) 
+								{
+									case 'rat':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_rat.xml';
+										break;
+										
+									case 'buffle':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_buffle.xml';
+										break;
+									
+									case 'tigre':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_tigre.xml';
+										break;
+										
+									case 'chat':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_chat.xml';
+										break;
+										
+									case 'dragon':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_dragon.xml';
+										break;
+										
+									case 'serpent':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_serpent.xml';
+										break;
+										
+									case 'cheval':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_cheval.xml';
+										break;
+										
+									case 'bouc':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_bouc.xml';
+										break;
+										
+									case 'singe':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_singe.xml';
+										break;
+										
+									case 'coq':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_coq.xml';
+										break;
+										
+									case 'chien':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_chien.xml';
+										break;
+										
+									case 'cochon':
+										$url = 'http://www.asiaflash.com/horoscope/rss_horochinjour_cochon.xml';
+										break;
+								}
+							}
+							else 
+							{
+								the_excerpt(); 
+								?>
+								<a href="<?php the_permalink(); ?>" title="Lire la suite de ce signe" class="more">lire la suite</a>
+								<?php
+							}
+							?>
 							<?php edit_post_link(__('Editer ce post','templatelite'), '<p>', '</p>'); ?>
 							<div class="clear"></div>
 						</div>

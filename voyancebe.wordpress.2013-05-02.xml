@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.5.1" created="2013-04-30 09:58" -->
+<!-- generator="WordPress/3.5.1" created="2013-05-02 14:36" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>voyance.be</title>
 	<link>http://www.voyance.be</link>
 	<description>Voyance et astrologie au quotidient</description>
-	<pubDate>Tue, 30 Apr 2013 09:58:19 +0000</pubDate>
+	<pubDate>Thu, 02 May 2013 14:36:05 +0000</pubDate>
 	<language>fr-FR</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://www.voyance.be</wp:base_site_url>
@@ -61,9 +61,11 @@
 	<wp:tag><wp:term_id>16</wp:term_id><wp:tag_slug>astrologie</wp:tag_slug><wp:tag_name><![CDATA[Astrologie]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>21</wp:term_id><wp:tag_slug>balance</wp:tag_slug><wp:tag_name><![CDATA[Balance]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>23</wp:term_id><wp:tag_slug>belier</wp:tag_slug><wp:tag_name><![CDATA[Bélier]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>71</wp:term_id><wp:tag_slug>bouc</wp:tag_slug><wp:tag_name><![CDATA[Bouc]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>32</wp:term_id><wp:tag_slug>buffle</wp:tag_slug><wp:tag_name><![CDATA[Buffle]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>18</wp:term_id><wp:tag_slug>cancer</wp:tag_slug><wp:tag_name><![CDATA[Cancer]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>25</wp:term_id><wp:tag_slug>capricorne</wp:tag_slug><wp:tag_name><![CDATA[Capricorne]]></wp:tag_name></wp:tag>
+	<wp:tag><wp:term_id>72</wp:term_id><wp:tag_slug>chat</wp:tag_slug><wp:tag_name><![CDATA[Chat]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>37</wp:term_id><wp:tag_slug>cheval</wp:tag_slug><wp:tag_name><![CDATA[Cheval]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>38</wp:term_id><wp:tag_slug>chevre</wp:tag_slug><wp:tag_name><![CDATA[Chèvre]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>41</wp:term_id><wp:tag_slug>chien</wp:tag_slug><wp:tag_name><![CDATA[Chien]]></wp:tag_name></wp:tag>
@@ -77,7 +79,6 @@
 	<wp:tag><wp:term_id>13</wp:term_id><wp:tag_slug>horoscope-du-jour</wp:tag_slug><wp:tag_name><![CDATA[Horoscope du jour]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>29</wp:term_id><wp:tag_slug>horoscope-gratuit-2</wp:tag_slug><wp:tag_name><![CDATA[Horoscope gratuit]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>58</wp:term_id><wp:tag_slug>liens-2</wp:tag_slug><wp:tag_name><![CDATA[Liens]]></wp:tag_name></wp:tag>
-	<wp:tag><wp:term_id>34</wp:term_id><wp:tag_slug>lievre</wp:tag_slug><wp:tag_name><![CDATA[lièvre]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>19</wp:term_id><wp:tag_slug>lion</wp:tag_slug><wp:tag_name><![CDATA[Lion]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>62</wp:term_id><wp:tag_slug>oracle-de-belline</wp:tag_slug><wp:tag_name><![CDATA[Oracle de Belline]]></wp:tag_name></wp:tag>
 	<wp:tag><wp:term_id>27</wp:term_id><wp:tag_slug>poissons</wp:tag_slug><wp:tag_name><![CDATA[Poissons]]></wp:tag_name></wp:tag>
@@ -3534,16 +3535,16 @@ Si vous êtes curieux vous pouvez aussi consulter votre <a href="http://www.voy
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope, horoscope du jour, horoscope gratuit, bélier]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[belier]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_aioseop_title</wp:meta_key>
 			<wp:meta_value><![CDATA[Horoscope du jour du bélier]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope, horoscope du jour, horoscope gratuit, bélier]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -3912,6 +3913,10 @@ Vous pourrez également apprendre à mieux vous connaître en visitant nos secti
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[rat]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[rat]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Buffle</title>
@@ -3957,6 +3962,10 @@ Vous pourrez également apprendre à mieux vous connaître en visitant nos secti
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[buffle]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[buffle]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Tigre</title>
@@ -3998,10 +4007,14 @@ Vous pourrez également apprendre à mieux vous connaître en visitant nos secti
 			<wp:meta_key>_aioseop_title</wp:meta_key>
 			<wp:meta_value><![CDATA[Horoscope chinois du jour du tigre]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[tigre]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
-		<title>Lièvre</title>
-		<link>http://www.voyance.be/horoscope-lievre/</link>
+		<title>Chat ( ou lièvre )</title>
+		<link>http://www.voyance.be/horoscope-chat/</link>
 		<pubDate>Tue, 23 Apr 2013 12:47:26 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://www.voyance.be/?p=406</guid>
@@ -4013,7 +4026,7 @@ Vous pourrez également apprendre à mieux vous connaître en visitant nos secti
 		<wp:post_date_gmt>2013-04-23 12:47:26</wp:post_date_gmt>
 		<wp:comment_status>closed</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>horoscope-lievre</wp:post_name>
+		<wp:post_name>horoscope-chat</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -4021,11 +4034,11 @@ Vous pourrez également apprendre à mieux vous connaître en visitant nos secti
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="post_tag" nicename="astrologie"><![CDATA[Astrologie]]></category>
+		<category domain="post_tag" nicename="chat"><![CDATA[Chat]]></category>
 		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
 		<category domain="category" nicename="horoscope-chinois"><![CDATA[horoscope chinois]]></category>
 		<category domain="post_tag" nicename="horoscope-chinois-2"><![CDATA[Horoscope chinois]]></category>
 		<category domain="post_tag" nicename="horoscope-du-jour"><![CDATA[Horoscope du jour]]></category>
-		<category domain="post_tag" nicename="lievre"><![CDATA[lièvre]]></category>
 		<category domain="post_tag" nicename="signe-chinois"><![CDATA[Signe chinois]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
@@ -4033,11 +4046,19 @@ Vous pourrez également apprendre à mieux vous connaître en visitant nos secti
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Horoscope chinois du jour du lièvre]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Horoscope chinois du jour du chat]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope chinois du jour pour le signe du lièvre]]></wp:meta_value>
+			<wp:meta_value><![CDATA[horoscope chinois du jour pour le signe du chat]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope-lievre]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[chat]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -4084,6 +4105,10 @@ Vous pourrez également apprendre à mieux vous connaître en visitant nos secti
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[horoscopedragon]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[dragon]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Serpent</title>
@@ -4128,6 +4153,10 @@ Vous pourrez également apprendre à mieux vous connaître en visitant nos secti
 		<wp:postmeta>
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[horoscopeserpent]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[serpent]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -4175,10 +4204,14 @@ Vous risquez de commettre des erreurs de jugement sur des personnes de votre ent
 			<wp:meta_key>_wp_old_slug</wp:meta_key>
 			<wp:meta_value><![CDATA[cheval]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[cheval]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
-		<title>Chèvre</title>
-		<link>http://www.voyance.be/horoscope-chevre/</link>
+		<title>Bouc</title>
+		<link>http://www.voyance.be/horoscope-bou/</link>
 		<pubDate>Tue, 23 Apr 2013 12:43:57 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://www.voyance.be/?p=419</guid>
@@ -4190,7 +4223,7 @@ Vous risquez de commettre des erreurs de jugement sur des personnes de votre ent
 		<wp:post_date_gmt>2013-04-23 12:43:57</wp:post_date_gmt>
 		<wp:comment_status>closed</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>horoscope-chevre</wp:post_name>
+		<wp:post_name>horoscope-bou</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -4198,7 +4231,7 @@ Vous risquez de commettre des erreurs de jugement sur des personnes de votre ent
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 		<category domain="post_tag" nicename="astrologie"><![CDATA[Astrologie]]></category>
-		<category domain="post_tag" nicename="chevre"><![CDATA[Chèvre]]></category>
+		<category domain="post_tag" nicename="bouc"><![CDATA[Bouc]]></category>
 		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
 		<category domain="category" nicename="horoscope-chinois"><![CDATA[horoscope chinois]]></category>
 		<category domain="post_tag" nicename="horoscope-chinois-2"><![CDATA[Horoscope chinois]]></category>
@@ -4209,11 +4242,19 @@ Vous risquez de commettre des erreurs de jugement sur des personnes de votre ent
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Horoscope chinois du jour de la chèvre ]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Horoscope chinois du jour du Bouc]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope chinois du jour pour le signe de la chèvre ]]></wp:meta_value>
+			<wp:meta_value><![CDATA[horoscope chinois du jour pour le signe du bouc]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope-chevre]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[bouc]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -4255,6 +4296,10 @@ Vous risquez de commettre des erreurs de jugement sur des personnes de votre ent
 			<wp:meta_key>_aioseop_description</wp:meta_key>
 			<wp:meta_value><![CDATA[horoscope chinois du jour pour le signe du singe]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[singe]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Coq</title>
@@ -4294,6 +4339,10 @@ Vous risquez de commettre des erreurs de jugement sur des personnes de votre ent
 		<wp:postmeta>
 			<wp:meta_key>_aioseop_description</wp:meta_key>
 			<wp:meta_value><![CDATA[horoscope chinois du jour pour le signe du coq]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[coq]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -4336,6 +4385,10 @@ Vous risquez de commettre des erreurs de jugement sur des personnes de votre ent
 			<wp:meta_key>_aioseop_title</wp:meta_key>
 			<wp:meta_value><![CDATA[Horoscope chinois du jour du chien]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[chien]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Cochon</title>
@@ -4377,477 +4430,23 @@ Vous risquez de commettre des erreurs de jugement sur des personnes de votre ent
 			<wp:meta_key>_aioseop_title</wp:meta_key>
 			<wp:meta_value><![CDATA[Horoscope chinois du jour du cochon]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Bélier</title>
-		<link>http://www.voyance.be/2013-belier/</link>
-		<pubDate>Thu, 25 Apr 2013 09:41:53 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://www.voyance.be/?p=541</guid>
-		<description></description>
-		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>541</wp:post_id>
-		<wp:post_date>2013-04-25 11:41:53</wp:post_date>
-		<wp:post_date_gmt>2013-04-25 09:41:53</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>2013-belier</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="belier"><![CDATA[Bélier]]></category>
-		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
-		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_wp_old_slug</wp:meta_key>
-			<wp:meta_value><![CDATA[belier]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Horoscope 2013 Bélier]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>signe</wp:meta_key>
-			<wp:meta_value><![CDATA[bélier]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[Votre signe astrologique est bélier ? Venez découvrir ce que l'année 2013 vous réserve. ]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Taureau</title>
-		<link>http://www.voyance.be/2013-taureau/</link>
-		<pubDate>Thu, 25 Apr 2013 12:54:07 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://www.voyance.be/?p=547</guid>
-		<description></description>
-		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>547</wp:post_id>
-		<wp:post_date>2013-04-25 14:54:07</wp:post_date>
-		<wp:post_date_gmt>2013-04-25 12:54:07</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>2013-taureau</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
-		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
-		<category domain="post_tag" nicename="taureau"><![CDATA[Taureau]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Taureau]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>signe</wp:meta_key>
-			<wp:meta_value><![CDATA[gemeaux]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_old_slug</wp:meta_key>
-			<wp:meta_value><![CDATA[taureau]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Gémeaux</title>
-		<link>http://www.voyance.be/2013-gemeaux/</link>
-		<pubDate>Thu, 25 Apr 2013 12:59:21 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://www.voyance.be/?p=553</guid>
-		<description></description>
-		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>553</wp:post_id>
-		<wp:post_date>2013-04-25 14:59:21</wp:post_date>
-		<wp:post_date_gmt>2013-04-25 12:59:21</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>2013-gemeaux</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="gemeaux"><![CDATA[Gémeaux]]></category>
-		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
-		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[Horoscope des gémeaux pour l'année 2013]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>signe</wp:meta_key>
-			<wp:meta_value><![CDATA[gémeaux]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, gémeaux]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Gémeaux 2013]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Cancer</title>
-		<link>http://www.voyance.be/2013-cancer/</link>
-		<pubDate>Thu, 25 Apr 2013 13:58:28 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://www.voyance.be/?p=557</guid>
-		<description></description>
-		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>557</wp:post_id>
-		<wp:post_date>2013-04-25 15:58:28</wp:post_date>
-		<wp:post_date_gmt>2013-04-25 13:58:28</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>2013-cancer</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="cancer"><![CDATA[Cancer]]></category>
-		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
-		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>signe</wp:meta_key>
-			<wp:meta_value><![CDATA[cancer]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Lion</title>
-		<link>http://www.voyance.be/2013-lion/</link>
-		<pubDate>Fri, 26 Apr 2013 12:04:20 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://www.voyance.be/?p=560</guid>
-		<description></description>
-		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>560</wp:post_id>
-		<wp:post_date>2013-04-26 14:04:20</wp:post_date>
-		<wp:post_date_gmt>2013-04-26 12:04:20</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>2013-lion</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
-		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
-		<category domain="post_tag" nicename="lion"><![CDATA[Lion]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>signe</wp:meta_key>
-			<wp:meta_value><![CDATA[lion]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe du lion ]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Lion]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Lion]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_old_slug</wp:meta_key>
-			<wp:meta_value><![CDATA[lion]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Vierge</title>
-		<link>http://www.voyance.be/2013-vierge/</link>
-		<pubDate>Fri, 26 Apr 2013 12:06:23 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://www.voyance.be/?p=565</guid>
-		<description></description>
-		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>565</wp:post_id>
-		<wp:post_date>2013-04-26 14:06:23</wp:post_date>
-		<wp:post_date_gmt>2013-04-26 12:06:23</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>2013-vierge</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
-		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
-		<category domain="post_tag" nicename="vierge"><![CDATA[Vierge]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>signe</wp:meta_key>
-			<wp:meta_value><![CDATA[vierge]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe de la vierge]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Vierge]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Vierge]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Balance</title>
-		<link>http://www.voyance.be/2013-balance/</link>
-		<pubDate>Fri, 26 Apr 2013 12:08:05 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://www.voyance.be/?p=568</guid>
-		<description></description>
-		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>568</wp:post_id>
-		<wp:post_date>2013-04-26 14:08:05</wp:post_date>
-		<wp:post_date_gmt>2013-04-26 12:08:05</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>2013-balance</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="balance"><![CDATA[Balance]]></category>
-		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
-		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>signe</wp:meta_key>
-			<wp:meta_value><![CDATA[balance]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe de la balance]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Balance]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Balance]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Scorpion</title>
-		<link>http://www.voyance.be/2013-scorpion/</link>
-		<pubDate>Fri, 26 Apr 2013 12:09:22 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://www.voyance.be/?p=570</guid>
-		<description></description>
-		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>570</wp:post_id>
-		<wp:post_date>2013-04-26 14:09:22</wp:post_date>
-		<wp:post_date_gmt>2013-04-26 12:09:22</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>2013-scorpion</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
-		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
-		<category domain="post_tag" nicename="scorpion"><![CDATA[Scorpion]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>signe</wp:meta_key>
-			<wp:meta_value><![CDATA[scorpion]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe du scorpion ]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Scorpion]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Scorpion]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Sagittaire</title>
-		<link>http://www.voyance.be/2013-sagittaire/</link>
-		<pubDate>Fri, 26 Apr 2013 12:11:10 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://www.voyance.be/?p=572</guid>
-		<description></description>
-		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>572</wp:post_id>
-		<wp:post_date>2013-04-26 14:11:10</wp:post_date>
-		<wp:post_date_gmt>2013-04-26 12:11:10</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>2013-sagittaire</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
-		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
-		<category domain="post_tag" nicename="sagittaire"><![CDATA[Sagittaire]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>signe</wp:meta_key>
-			<wp:meta_value><![CDATA[sagittaire]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe du sagittaire]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Sagittaire]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Sagittaire]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Capricorne</title>
-		<link>http://www.voyance.be/2013-capricorne/</link>
-		<pubDate>Fri, 26 Apr 2013 12:12:30 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://www.voyance.be/?p=574</guid>
-		<description></description>
-		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>574</wp:post_id>
-		<wp:post_date>2013-04-26 14:12:30</wp:post_date>
-		<wp:post_date_gmt>2013-04-26 12:12:30</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>2013-capricorne</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="post_tag" nicename="capricorne"><![CDATA[Capricorne]]></category>
-		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
-		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
-		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>signe</wp:meta_key>
-			<wp:meta_value><![CDATA[capricorne]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_description</wp:meta_key>
-			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe du capricorne]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_keywords</wp:meta_key>
-			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Capricorne]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_aioseop_title</wp:meta_key>
-			<wp:meta_value><![CDATA[Capricorne]]></wp:meta_value>
+			<wp:meta_value><![CDATA[cochon]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
 		<title>Verseau</title>
 		<link>http://www.voyance.be/2013-verseau/</link>
-		<pubDate>Fri, 26 Apr 2013 12:37:49 +0000</pubDate>
+		<pubDate>Thu, 02 May 2013 13:26:49 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://www.voyance.be/?p=576</guid>
 		<description></description>
 		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>576</wp:post_id>
-		<wp:post_date>2013-04-26 14:37:49</wp:post_date>
-		<wp:post_date_gmt>2013-04-26 12:37:49</wp:post_date_gmt>
+		<wp:post_date>2013-05-02 15:26:49</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:26:49</wp:post_date_gmt>
 		<wp:comment_status>closed</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>2013-verseau</wp:post_name>
@@ -4886,15 +4485,15 @@ Vous risquez de commettre des erreurs de jugement sur des personnes de votre ent
 	<item>
 		<title>Poisson</title>
 		<link>http://www.voyance.be/2013-poisson/</link>
-		<pubDate>Fri, 26 Apr 2013 12:39:31 +0000</pubDate>
+		<pubDate>Thu, 02 May 2013 13:25:31 +0000</pubDate>
 		<dc:creator>admin</dc:creator>
 		<guid isPermaLink="false">http://www.voyance.be/?p=578</guid>
 		<description></description>
 		<content:encoded><![CDATA[Le texte est généré automatiquemente]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>578</wp:post_id>
-		<wp:post_date>2013-04-26 14:39:31</wp:post_date>
-		<wp:post_date_gmt>2013-04-26 12:39:31</wp:post_date_gmt>
+		<wp:post_date>2013-05-02 15:25:31</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:25:31</wp:post_date_gmt>
 		<wp:comment_status>closed</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
 		<wp:post_name>2013-poisson</wp:post_name>
@@ -5848,6 +5447,464 @@ Téléphoner à un voyant est nettement plus facile et plus anonyme aussi. La pe
 		<wp:postmeta>
 			<wp:meta_key>_aioseop_title</wp:meta_key>
 			<wp:meta_value><![CDATA[Voyance par téléphone]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Bélier</title>
+		<link>http://www.voyance.be/2013-belier/</link>
+		<pubDate>Thu, 02 May 2013 13:39:53 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://www.voyance.be/?p=541</guid>
+		<description></description>
+		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>541</wp:post_id>
+		<wp:post_date>2013-05-02 15:39:53</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:39:53</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>2013-belier</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="belier"><![CDATA[Bélier]]></category>
+		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
+		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[belier]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Horoscope 2013 Bélier]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[bélier]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[Votre signe astrologique est bélier ? Venez découvrir ce que l'année 2013 vous réserve. ]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Taureau</title>
+		<link>http://www.voyance.be/2013-taureau/</link>
+		<pubDate>Thu, 02 May 2013 13:38:07 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://www.voyance.be/?p=547</guid>
+		<description></description>
+		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>547</wp:post_id>
+		<wp:post_date>2013-05-02 15:38:07</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:38:07</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>2013-taureau</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
+		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
+		<category domain="post_tag" nicename="taureau"><![CDATA[Taureau]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Taureau]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[gemeaux]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[taureau]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Gémeaux</title>
+		<link>http://www.voyance.be/2013-gemeaux/</link>
+		<pubDate>Thu, 02 May 2013 13:37:21 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://www.voyance.be/?p=553</guid>
+		<description></description>
+		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>553</wp:post_id>
+		<wp:post_date>2013-05-02 15:37:21</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:37:21</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>2013-gemeaux</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="gemeaux"><![CDATA[Gémeaux]]></category>
+		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
+		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[Horoscope des gémeaux pour l'année 2013]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[gémeaux]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, gémeaux]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Gémeaux 2013]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Cancer</title>
+		<link>http://www.voyance.be/2013-cancer/</link>
+		<pubDate>Thu, 02 May 2013 13:36:28 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://www.voyance.be/?p=557</guid>
+		<description></description>
+		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>557</wp:post_id>
+		<wp:post_date>2013-05-02 15:36:28</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:36:28</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>2013-cancer</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="cancer"><![CDATA[Cancer]]></category>
+		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
+		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[cancer]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Lion</title>
+		<link>http://www.voyance.be/2013-lion/</link>
+		<pubDate>Thu, 02 May 2013 13:35:20 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://www.voyance.be/?p=560</guid>
+		<description></description>
+		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>560</wp:post_id>
+		<wp:post_date>2013-05-02 15:35:20</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:35:20</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>2013-lion</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
+		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
+		<category domain="post_tag" nicename="lion"><![CDATA[Lion]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[lion]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe du lion ]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Lion]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Lion]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_old_slug</wp:meta_key>
+			<wp:meta_value><![CDATA[lion]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Vierge</title>
+		<link>http://www.voyance.be/2013-vierge/</link>
+		<pubDate>Thu, 02 May 2013 13:34:23 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://www.voyance.be/?p=565</guid>
+		<description></description>
+		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>565</wp:post_id>
+		<wp:post_date>2013-05-02 15:34:23</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:34:23</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>2013-vierge</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
+		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
+		<category domain="post_tag" nicename="vierge"><![CDATA[Vierge]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[vierge]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe de la vierge]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Vierge]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Vierge]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Balance</title>
+		<link>http://www.voyance.be/2013-balance/</link>
+		<pubDate>Thu, 02 May 2013 13:30:05 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://www.voyance.be/?p=568</guid>
+		<description></description>
+		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>568</wp:post_id>
+		<wp:post_date>2013-05-02 15:30:05</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:30:05</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>2013-balance</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="balance"><![CDATA[Balance]]></category>
+		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
+		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[balance]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe de la balance]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Balance]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Balance]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Scorpion</title>
+		<link>http://www.voyance.be/2013-scorpion/</link>
+		<pubDate>Thu, 02 May 2013 13:29:22 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://www.voyance.be/?p=570</guid>
+		<description></description>
+		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>570</wp:post_id>
+		<wp:post_date>2013-05-02 15:29:22</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:29:22</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>2013-scorpion</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
+		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
+		<category domain="post_tag" nicename="scorpion"><![CDATA[Scorpion]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[scorpion]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe du scorpion ]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Scorpion]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Scorpion]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Sagittaire</title>
+		<link>http://www.voyance.be/2013-sagittaire/</link>
+		<pubDate>Thu, 02 May 2013 13:28:10 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://www.voyance.be/?p=572</guid>
+		<description></description>
+		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>572</wp:post_id>
+		<wp:post_date>2013-05-02 15:28:10</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:28:10</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>2013-sagittaire</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
+		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
+		<category domain="post_tag" nicename="sagittaire"><![CDATA[Sagittaire]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[sagittaire]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe du sagittaire]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Sagittaire]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Sagittaire]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Capricorne</title>
+		<link>http://www.voyance.be/2013-capricorne/</link>
+		<pubDate>Thu, 02 May 2013 13:27:30 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+		<guid isPermaLink="false">http://www.voyance.be/?p=574</guid>
+		<description></description>
+		<content:encoded><![CDATA[Le texte est généré automatiquement]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>574</wp:post_id>
+		<wp:post_date>2013-05-02 15:27:30</wp:post_date>
+		<wp:post_date_gmt>2013-05-02 13:27:30</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>2013-capricorne</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="post_tag" nicename="capricorne"><![CDATA[Capricorne]]></category>
+		<category domain="post_tag" nicename="horoscope"><![CDATA[Horoscope]]></category>
+		<category domain="category" nicename="horoscope-2013"><![CDATA[horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-2013-2"><![CDATA[Horoscope 2013]]></category>
+		<category domain="post_tag" nicename="horoscope-gratuit-2"><![CDATA[Horoscope gratuit]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>signe</wp:meta_key>
+			<wp:meta_value><![CDATA[capricorne]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[Horoscope 2013 pour le signe du capricorne]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_keywords</wp:meta_key>
+			<wp:meta_value><![CDATA[horoscope, horoscope 2013, horoscope gratuit, Capricorne]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Capricorne]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>

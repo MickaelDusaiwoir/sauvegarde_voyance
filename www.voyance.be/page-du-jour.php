@@ -52,6 +52,7 @@
 									$signe =  get_post_custom_values('signe', $post_id); 
 									$showHoroscope = true;
 									
+									$showHoroscope = true;
 									switch ( $signe[0] ) 
 									{
 										case 'bélier':
@@ -114,111 +115,184 @@
 											$hSignID = 11;
 											break;
 									}
-									
-									if ( $ch = curl_init('http://www.horoscope.fr/rss/horoscope/jour/') )
-									{
-										curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-										$buffer = curl_exec($ch);
-										curl_close($ch);
-										
-										if ( $buffer )
-										{
-											$currentSign = 0;
-											$currentPosition = 0;
-											
-											while ( true )
-											{
-												// On recherche la balise ITEM correspondant à un signe
-												$start = 0;
-												if ( ($currentPosition = strpos($buffer, '<item>', $currentPosition)) !== false )
-													$start = $currentPosition + strlen('<item>');
-												else
-													break;
-												
-												$end = 0;
-												if ( ($currentPosition = strpos($buffer, '</item>', $currentPosition)) !== false )
-													$end = $currentPosition;
-												else
-													break;
-												
-												// On extrait uniquement la balise pour faciliter l'analyse
-												if ( $item = substr($buffer, $start, $end - $start) )
-												{
-													// On recherche la balise de la description
-													if ( ($dStart = strpos($item, '<description><![CDATA[')) !== false )
-														$dStart += strlen('<description><![CDATA[');
-													else
-														break;
-													
-													if ( ($dEnd = strpos($item, ']]></description>', $dStart)) === false )
-														break;
-													
-													// On extrait la description
-													if ( $rawDescription = substr($item, $dStart, $dEnd - $dStart) )
-													{
-														$hData[$currentSign] = array();
-														
-														// On split par <br> pour obtenir les différents themes (amour, travail, ...)
-														$themes = preg_split('#(<br>|<br />)#', $rawDescription);
-														
-														foreach ( $themes as $theme )
-														{
-															// On vire la publicité
-															if ( strstr($theme, '<a') !== false )
-															{
-																continue;
-															}
-															else
-															{
-																// On sépare le titre du theme du contenu
-																$tmp = explode(':', $theme);
-																
-																if ( count($tmp) > 1 )
-																{
-																	$title = array_shift($tmp);
-																	$descr = implode(':', $tmp);
-																	
-																	$hData[$currentSign][] = array(
-																		'title' => trim($title),
-																		'content' => trim($descr)
-																	);
-																}
-															}
-														} // end foreach()
-													} 
-												}
-												 
-												$currentSign++;
-											}  // end while()
 
-											// Check le nombre de signes
-											if ( count($hData) !== 12 )
-											{
-												echo 'Les 12 signes n\'ont pas été trouvés dans le xml!';
-												$showHoroscope = false;
-											}
-										}
-										else
+									define('DSN', 'mysql:host=sql_server;dbname=voyance'); 
+									define('USER', 'voyance');
+									define('PASS', '2tuPYzYwc1fIjB62');
+									$options = array (
+										PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+										PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
+									);
+
+									try 
+									{
+										$connex = new PDO(DSN, USER, PASS, $options);
+										$connex->query('SET CHARACTER SET UTF8');
+										$connex->query('SET NAMES UTF8');
+
+										$req = 	'SELECT `extrait` from `wp_horoscope_jour`'.
+												' WHERE `upd_interval` > ( UNIX_TIMESTAMP() - `last_upd` )'.
+												' and `signe` = \''.$signe[0].'\';';
+										
+										$result = $connex->query($req);	
+										$data = $result->fetchAll();
+
+										
+										if ( $data )
 										{
-											echo 'La page de l\'horoscope est vide !';
-											$showHoroscope = false;
-										}
-									}
-									else
-									{
-										echo('cURL indisponible pour l\'horoscope !');
-										$showHoroscope = false;
-									}
-														
-									if ( $showHoroscope && $hData )
-									{
-										if ( isset($hData[$hSignID]) )
-										{												
-											echo("<p>" . $hData[$hSignID][3]['content'] . "</p>");
+											echo $data[0]['extrait']; 
 											?>
 												<a href="<?php the_permalink() ?>" title="Lire la suite de ce signe" class="more">lire la suite</a>
 											<?php
 										}	
+										else
+										{
+											// on récupere l'horoscope 
+											
+											if ( $ch = curl_init('http://www.horoscope.fr/rss/horoscope/jour/') )
+											{
+												curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+												$buffer = curl_exec($ch);
+												curl_close($ch);
+												
+												if ( $buffer )
+												{
+													$currentSign = 0;
+													$currentPosition = 0;
+													
+													while ( true )
+													{
+														// On recherche la balise ITEM correspondant à un signe
+														$start = 0;
+														if ( ($currentPosition = strpos($buffer, '<item>', $currentPosition)) !== false )
+															$start = $currentPosition + strlen('<item>');
+														else
+															break;
+														
+														$end = 0;
+														if ( ($currentPosition = strpos($buffer, '</item>', $currentPosition)) !== false )
+															$end = $currentPosition;
+														else
+															break;
+														
+														// On extrait uniquement la balise pour faciliter l'analyse
+														if ( $item = substr($buffer, $start, $end - $start) )
+														{
+															// On recherche la balise de la description
+															if ( ($dStart = strpos($item, '<description><![CDATA[')) !== false )
+																$dStart += strlen('<description><![CDATA[');
+															else
+																break;
+															
+															if ( ($dEnd = strpos($item, ']]></description>', $dStart)) === false )
+																break;
+															
+															// On extrait la description
+															if ( $rawDescription = substr($item, $dStart, $dEnd - $dStart) )
+															{
+																$hData[$currentSign] = array();
+																
+																// On split par <br> pour obtenir les différents themes (amour, travail, ...)
+																$themes = preg_split('#(<br>|<br />)#', $rawDescription);
+																
+																foreach ( $themes as $theme )
+																{
+																	// On vire la publicité
+																	if ( strstr($theme, '<a') !== false )
+																	{
+																		continue;
+																	}
+																	else
+																	{
+																		// On sépare le titre du theme du contenu
+																		$tmp = explode(':', $theme);
+																		
+																		if ( count($tmp) > 1 )
+																		{
+																			$title = array_shift($tmp);
+																			$descr = implode(':', $tmp);
+																			
+																			$hData[$currentSign][] = array(
+																				'title' => trim($title),
+																				'content' => trim($descr)
+																			);
+																		}
+																	}
+																} // end foreach()
+															} 
+														}
+														 
+														$currentSign++;
+													}  // end while()
+
+													// Check le nombre de signes
+													if ( count($hData) !== 12 )
+													{
+														echo 'Les 12 signes n\'ont pas été trouvés dans le xml!';
+														$showHoroscope = false;
+													}
+												}
+												else
+												{
+													echo 'La page de l\'horoscope est vide !';
+													$showHoroscope = false;
+												}
+											}
+											else
+											{
+												echo('cURL indisponible pour l\'horoscope !');
+												$showHoroscope = false;
+											}
+											
+											if ( $showHoroscope && $hData )
+											{
+												if ( isset($hData[$hSignID]) )
+												{												
+													$extrait = '<p>'.$hData[$hSignID][3]['content'].'</p>';
+
+													$complet = '';
+
+													for ( $i = 0; $i < count($hData[$hSignID]); $i++ )
+													{
+														$complet .= '<h3>Horoscope '.$hData[$hSignID][$i]['title'].'</h3>';
+														$complet .= '<p>'.$hData[$hSignID][$i]['content'].'</p>';
+													}
+												}	
+											}
+
+											// mise a jour ou insertion  
+
+											if ( $extrait && $complet )
+											{
+												$last_upd = mktime(0,0,0);
+
+												$req = 'INSERT INTO `wp_horoscope_jour` (`signe`, `extrait`, `complet`,`last_upd`) '.
+													'VALUES (\''.$signe[0].'\', \''.addslashes($extrait).'\', \''.addslashes($complet).'\', \''.$last_upd.'\' ) '.
+													'ON DUPLICATE KEY UPDATE `extrait` = \''.addslashes($extrait).'\', `complet` = \''.addslashes($complet).'\', `last_upd` = \''.$last_upd.'\';';
+
+												$result = $connex->query($req);	
+											
+												// affichage
+
+												if ( $data = $result->rowCount() )
+												{
+													print_r( $extrait );
+													?>
+														<a href="<?php the_permalink() ?>" title="Lire la suite de ce signe" class="more">lire la suite</a>
+													<?php
+												} 
+												else 
+												{
+													echo 'ERREUR DB';
+												}
+											}
+										}
+									}
+									catch (PDOException $e) 
+									{
+										die($e->getMessage());
+
+										echo 'ERROR:NO_DATABASE';
 									}
 								}
 								else 

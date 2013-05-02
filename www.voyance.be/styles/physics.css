@@ -276,8 +276,16 @@ img.post_thumb {
 	margin: 0 auto;
 }
 
+.horoscope-2013 br:first-child, .horoscope-2013 br:nth-child(3) {
+	display: none;
+}
 
+.horoscope-2013 center:last-child {
+	margin: 1em 0;
+}
 
-
+.horoscope-2013 li {
+	margin-top: 1em;
+}
 
 

@@ -13,7 +13,7 @@
 							</div>
 							<div class="clear"></div>
 							<div class="entry">
-								<?php the_content(__('lira la suite &raquo;','templatelite')); ?>
+								<?php the_content(__('lire la suite &raquo;','templatelite')); ?>
 								<?php wp_link_pages(array('Précédent' => '<div><center><strong>Pages: ', 'Suivant' => '</strong></center></div>', 'next_or_number' => 'numéro')); ?>
 								<div class="clear"></div>
 							</div>
@@ -43,9 +43,8 @@
 							<div class="clear"></div>
 							<div class="entry">
 							
-							<?php 
-								
-							/*if ( get_post_custom_values('signe', $post_id) ) 
+							<?php 								
+								if ( get_post_custom_values('signe', $post_id) ) 
 								{							
 									$signe =  get_post_custom_values('signe', $post_id); 
 									$showHoroscope = true;
@@ -101,81 +100,141 @@
 											break;
 									}
 									
-									/*if ( $ch = curl_init($url) )
+									define('DSN', 'mysql:host=sql_server;dbname=voyance'); 
+									define('USER', 'voyance');
+									define('PASS', '2tuPYzYwc1fIjB62');
+									$options = array (
+										PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+										PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
+									);
+
+									try 
 									{
-										curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-										$buffer = curl_exec($ch);
-										curl_close($ch);
+										$connex = new PDO(DSN, USER, PASS, $options);
+										$connex->query('SET CHARACTER SET UTF8');
+										$connex->query('SET NAMES UTF8');
+
+										$req = 	'SELECT `extrait` from `wp_horoscope_2013`'.
+												' WHERE `signe` = \''.$signe[0].'\';';
 										
-										if ( $buffer )
-										{			
-											$buffer = utf8_encode($buffer);
-											$buffer = html_entity_decode($buffer);										
-											$start = 0;
-											
-											if ( ($start = strpos($buffer, '<item>', 0)) !== false )
+										$result = $connex->query($req);	
+										$data = $result->fetchAll();
+
+										
+										if ( $data )
+										{
+											echo $data[0]['extrait']; 
+											?>
+												<a href="<?php the_permalink() ?>" title="Lire la suite de ce signe" class="more">lire la suite</a>
+											<?php
+										}	
+										else
+										{
+											if ( $ch = curl_init($url) )
 											{
-												$end = 0;
-												if ( ($end = strpos($buffer, '</item>', $start)) !== false ) 
-												{
-													if ( $item = substr($buffer, $start, $end - $start) ) // on recupere le contenu dans item
+												curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+												$buffer = curl_exec($ch);
+												curl_close($ch);
+
+												if ( $buffer )
+												{			
+													$buffer = utf8_encode($buffer);
+													$buffer = html_entity_decode($buffer);										
+													$start = 0;
+
+													if ( ($start = strpos($buffer, '<item>', 0)) !== false )
 													{
-														// on cherche la description pour en extraire un partie 
-														if ( ($dStart = strpos($item, '<description>', 0)) !== false )
+														$end = 0;
+														if ( ($end = strpos($buffer, '</item>', $start)) !== false ) 
 														{
-															if  ( ($dEnd = strpos($item, '</description>', $dStart)) !== false )
+															if ( $item = substr($buffer, $start, $end - $start) ) // on recupere le contenu dans item
 															{
-																if ( $descri = substr($item, $dStart, $dEnd - $dStart) ) // on extrait la description
+																// on cherche la description pour en extraire un partie 
+																if ( ($dStart = strpos($item, '<description>', 0)) !== false )
 																{
-																	// on prend une partie du texte																	
-																	if ( ($extStart = strpos($descri, '</em>', 0)) !== false )
+																	if  ( ($dEnd = strpos($item, '</description>', $dStart)) !== false )
 																	{
-																		if ( ($extEnd = strpos($descri, '<br><br>', $extStart)) !== false )
+																		if ( $descri = substr($item, $dStart, $dEnd - $dStart) ) // on extrait la description
 																		{
-																			if ( $extrait = substr($descri, $extStart, $extEnd - $extStart) )
-																				echo '<p>' . $extrait . '</p>';
+																			$complet = $descri;
+																			// on prend une partie du texte																	
+																			if ( ($extStart = strpos($descri, '</em>', 0)) !== false )
+																			{
+																				$extStart += strlen('</em>');
+																				if ( ($extEnd = strpos($descri, '<br><br>', $extStart)) !== false )
+																				{
+																					if ( $extrait = substr($descri, $extStart, $extEnd - $extStart) )
+																					{
+																						$extrait = '<p>' . $extrait . '</p>';
+
+																						$req = 'INSERT INTO `wp_horoscope_2013` (`signe`, `extrait`, `complet`) '.
+																								'VALUES (\''.$signe[0].'\', \''.addslashes($extrait).'\', \''.addslashes($complet).'\' ) '.
+																								'ON DUPLICATE KEY UPDATE `extrait` = \''.addslashes($extrait).'\', `complet` = \''.addslashes($complet).'\';';
+
+																						$result = $connex->query($req);	
+																					
+																						// affichage
+
+																						if ( $data = $result->rowCount() )
+																						{
+																							echo( $extrait );
+																							?>
+																								<a href="<?php the_permalink() ?>" title="Lire la suite de ce signe" class="more">lire la suite</a>
+																							<?php
+																						}
+																						else 
+																						{
+																							echo 'ERREUR DB';
+																						}
+																					}
+																					else
+																					{
+																						echo "Extrait indisponnible";
+																					}
+																				}
+																			}
+																			else
+																			{
+																				echo 'Erreur de balise';
+																			}
 																		}
 																	}
-																	else
-																	{
-																		echo 'Erreur de balise';
-																	}
 																}
-															}
+																else
+																{
+																	echo 'La balise description n\'a pas été trouvée';
+																}
+															}												
 														}
-														else
-														{
-															echo 'La balise description n\'a pas été trouvée';
-														}
-													}												
+													}
+													else
+													{
+														echo 'La balise item n\'a pas été trouvée';
+													}											
+												}
+												else
+												{
+													echo 'La page de l\'horoscope est vide !';
 												}
 											}
 											else
 											{
-												echo 'La balise item n\'a pas été trouvée';
-											}											
-										}
-										else
-										{
-											echo 'La page de l\'horoscope est vide !';
+												echo('cURL indisponible pour l\'horoscope !');
+											}
 										}
 									}
-									else
+									catch (PDOException $e) 
 									{
-										echo('cURL indisponible pour l\'horoscope !');
+										die($e->getMessage());
 									}
-									
-									?>
-										<a href="<?php the_permalink() ?>" title="Lire la suite de ce signe" class="more">lire la suite</a>
-									<?php
 								}
 								else 
-								{*/
+								{
 									the_excerpt(); 
 									?>
 									<a href="<?php the_permalink(); ?>" title="Lire la suite de ce signe" class="more">lire la suite</a>
 									<?php
-								/*}	*/
+								}	
 								?>								
 								<div class="clear"></div>
 								<?php edit_post_link(__('Editer ce post','templatelite'), '<p>', '</p>'); ?>
