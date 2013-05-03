@@ -13,9 +13,34 @@
 		</ul>
 </div>
 <div id="sidebar2">
-	<div style="display:none;">
-		<?php theme_sb_credit();?>	
-	</div>
+	<ul>
+	<?php if(!dynamic_sidebar('sidebar-2')) : ?>
+		<li class="widget_tag_cloud">
+			<h4 class="sb2_title">Tag Cloud</h4>
+			<div>
+				<?php wp_tag_cloud('smallest=10&largest=20&number=30&unit=px&format=flat&orderby=name'); ?>
+			</div>
+		</li>
+		
+		<?php if ( is_home() || is_page() ) { 	/* If this is the frontpage */ 
+			wp_list_bookmarks('orderby=rand&title_before=<h4 class="sb2_title">&title_after=</h4>&between=<br/>&show_description=1&limit=20');
+		} 
+		?>
+		
+		<li id="meta">
+			<h4 class="sb2_title">Meta</h4>
+			<ul>
+				<?php wp_register(); ?>
+				<li><?php wp_loginout(); ?></li>
+				<?php wp_meta(); ?>
+			</ul>
+		</li>
+		<?php	endif;?>
+		<div style="display:none;">
+			<?php theme_sb_credit();?>	
+		</div>
+		</ul>	
+	
 </div>
 <div id="rss_search">
 	<a href="<?php echo bloginfo('rss2_url'); ?>" title="RSS Feed" class="rss">Rss</a>

@@ -276,7 +276,8 @@ img.post_thumb {
 	margin: 0 auto;
 }
 
-.horoscope-2013 br:first-child, .horoscope-2013 br:nth-child(3) {
+.horoscope-2013 br:first-child, .horoscope-2013 br:nth-child(3), 
+.horoscope-chinois br:first-child, .horoscope-chinois br:nth-child(3){
 	display: none;
 }
 
@@ -288,4 +289,19 @@ img.post_thumb {
 	margin-top: 1em;
 }
 
+#signes, #chinois {
+	display: block;
+	width: 361px;
+	margin: 0 auto;
+	list-style: none;
+	margin-bottom: 1em;
+}
 
+#signes li, #chinois li {
+	margin : 1em 0;
+}
+
+#chinois {
+	width: 425px;
+	margin-bottom: 1.5em;
+}

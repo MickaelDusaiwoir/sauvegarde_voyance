@@ -2,8 +2,9 @@
 <div id="content">
 	<div id="content_top">
 		<div id="content_btm">
+				
 		<?php 
-			$arg = array('category_name' => 'horoscope-2');
+			$arg = array('category_name' => 'signes-chinois');
 			$loop = new WP_query($arg);
 
 			if ( $loop->have_posts() ):
@@ -20,7 +21,7 @@
 						</div>
 						<div class="clear"></div>
 						<div class="entry">
-							<?php the_content(__('lire la suite &raquo;','templatelite')); ?>
+							<?php the_content(__('lira la suite &raquo;','templatelite')); ?>
 							<div class="clear"></div>
 							<?php edit_post_link(__('Editer ce post','templatelite'), '<p>', '</p>'); ?>
 							<div class="clear"></div>
